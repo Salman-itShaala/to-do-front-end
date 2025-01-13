@@ -1,0 +1,20 @@
+
+
+.userInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+.userInfo img{
+    height: 10vh;
+    border-radius: 50px;
+}
+.userInfo p{
+    background-color: var(--primary-component-bg-color);
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+}

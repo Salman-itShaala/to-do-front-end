@@ -1,0 +1,22 @@
+.newTaskContainer{
+    /* border: 1px solid red; */
+    border: 1px dotted var(--primary-border-color);
+    background-color: var(--primary-component-bg-color);
+    border-radius: 10px;
+    height: 30vh;
+    width: 16vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newTaskContainer p{
+    color: var(--primary-sub-font-color);
+    background-color: var(--primary-component-bg-color);
+    font-size: 18px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #323232;
+}

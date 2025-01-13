@@ -1,0 +1,88 @@
+*{
+    /* border: 1px solid red; */
+}
+label {
+    background-color: var(--primary-component-bg-color);
+}
+
+input {
+    border: none;
+}
+
+.createTaskContainer{
+    background:none;
+    /* border: 1px solid red; */
+    height: 99vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.createTaskForm{
+    border-radius: 10px;
+    /* border: 1px solid red; */
+    height: 90vh;
+    width: 34vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    background-color: var(--primary-component-bg-color);
+
+}
+
+.createTaskForm h2{
+    padding: 0px 0px 18px 0px; 
+    background-color: var(--primary-component-bg-color);
+}
+#title{
+    height: 7vh;
+   padding-left: 6px;
+}
+#desc{
+    height: 20vh;
+   padding-top: 10px;
+   padding-left: 6px;
+   border: none;
+}
+
+#date{
+   padding-left: 6px;
+    height: 6vh;
+
+}
+#date::-webkit-calendar-picker-indicator {
+    background-color:grey;
+    color: red;
+    font-size: 14px;
+    z-index: 1;
+    
+}
+
+.checkInputs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--primary-component-bg-color);
+}
+
+.checkInputOne{
+    background-color: var(--primary-component-bg-color);
+    display: flex;
+    justify-content: space-between;
+}
+.checkInputTwo{
+    background-color: var(--primary-component-bg-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.createTaskForm button{
+    margin-left: 20vw;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(38, 122, 191);
+    border: none;
+}

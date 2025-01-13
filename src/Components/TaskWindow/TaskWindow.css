@@ -1,0 +1,43 @@
+*{
+    /* border: 1px solid red; */
+}
+.taskContainer{
+    /* border: 1px solid red; */
+    background-color: var(--primary-component-bg-color);
+    height: 100%;
+    width:100%;
+}
+.taskHeader{
+    background-color: var(--primary-component-bg-color);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+
+}
+.taskContainer p{
+    background-color: var(--primary-component-bg-color);
+    color: var(--primary-title-font-color);
+    font-size: 22px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.taskContainer button{
+    /* padding: 10px; */
+    background-color: var(--primary-component-bg-color);
+    color: #cbbcbc;
+    height: 36px;
+    width: 36px;
+    font-size: 24px;
+    border: 1px solid var(--primary-border-color);
+    border-radius: 50%;
+}
+.allTask{
+    /* border: 1px solid red; */
+    background-color: var(--primary-component-bg-color);
+    padding: 10px;
+    width: 100%;
+    height: 76vh;
+}
